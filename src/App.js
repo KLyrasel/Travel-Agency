@@ -2,8 +2,8 @@ import React, { Suspense } from 'react';
 import './App.css';
 
 function App() {
-  const AboutUs = React.lazy(() => import('./AboutUs'))
-  const Packages = React.lazy(() => import('./Packages'))
+  const AboutUs = React.lazy(() => import('./components/AboutUs'))
+  const Packages = React.lazy(() => import('./components/Packages'))
 
 
   return (
